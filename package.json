@@ -1,0 +1,37 @@
+{
+  "name": "react_timer",
+  "version": "1.0.0",
+  "description": "timer app using react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webapck --watch",
+    "start": "http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ko1-ota/react_timer.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "https://github.com/ko1-ota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ko1-ota/react_timer/issues"
+  },
+  "homepage": "https://github.com/ko1-ota/react_timer#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
